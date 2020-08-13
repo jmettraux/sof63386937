@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.1.7)
+    et-orbi (1.2.4)
+      tzinfo
+    fugit (1.3.8)
+      et-orbi (~> 1.1, >= 1.1.8)
+      raabro (~> 1.3)
+    puma (3.12.2)
+    raabro (1.3.1)
+    rack (2.2.3)
+    rake (13.0.1)
+    rufus-scheduler (3.6.0)
+      fugit (~> 1.1, >= 1.1.6)
+    tzinfo (2.0.2)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  puma (= 3.12.2)
+  rack
+  rake
+  rufus-scheduler (= 3.6.0)
+
+BUNDLED WITH
+   2.1.4
